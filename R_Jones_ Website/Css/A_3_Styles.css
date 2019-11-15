@@ -1,0 +1,148 @@
+body {
+	background-color: #0073cf;
+}
+
+/* Style for the header specifies
+top margin, background color, rounded corners, and center-
+aligns content */
+
+header {
+	margin-top: 0.2em;
+	border-radius: 0.5em;
+	width: 64%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #0073cf;
+}
+
+/* Style for the main element specifies a block display, text */
+
+main {
+	/*text-align: center;*/   /* added for A_5 */
+	display: block;
+	font-family: "Roboto mono", "Times New Roman", serif;
+	font-size: 1.5em;
+	/* margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 1em;
+	border-bottom: solid 0.2em #009933;
+	border-top: solid 0.2em #009933;
+	background-color: #FFFFFF; */
+}
+
+
+
+footer {
+	text-align: center;
+	font-family: "Roboto mono", "Times New Roman", serif;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+/* Style to create a fluid image */
+
+img {
+	max-width: 100%;
+}
+	
+	/* Styles for Mobile Layout */
+	
+#container {
+	width:  100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Style for the nav specifies text properties */
+
+nav {
+	font-family: "Roboto mono", "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/* Style specifies padding and margins for unordered list */
+
+nav ul {
+		padding: 0;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background
+color, rounded corners, removes bullet style, and applies
+margins and padding for list items within the navigation */
+
+nav li {
+	background-color: 	#800080; /*#ff00ff magenta ; /*#009933; dark green*/
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+
+nav li a { 
+	color: #FFFFFF; 
+	text-decoration: none;
+}
+
+
+/* Style displays the mobile class */
+
+.mobile {
+	display: inline;
+	                                  
+}
+input, select, textarea {                             /*--Added for A_5-->*/
+	display: block;                                   /*--Added for A_5-->*/
+	margin-bottom: 1em;                               /*--Added for A_5-->*/
+	
+}
+
+/* Style rule for label element */                        /*--Added for A_5-->*/
+
+label {                                                  /*--Added for A_5-->*/
+	display: block;                                      /*--Added for A_5-->*/
+}                                                        /*--Added for A_5-->*/
+
+/* Style rule for unordered list within a form */          /*--Added for A_5-->*/
+form ul {                                                  /*--Added for A_5-->*/
+	list-style-type: none;                                 /*--Added for A_5-->*/
+}
+
+/* Style rule for chkbx class */
+.chkbx {                                                   /*--Added for A_5-->*/
+	display: inline-block;                                 /*--Added for A_5-->*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style hides the desktop class */
+
+.desktop {
+	display: none;
+}
+
+/* Style for the main element specifies a block display, text */
+
+/* Style rule for input, select, and textarea form elements  (added for A_5)*/
+input, select, textarea {
+	display: block; 
+	margin-bottom: 1em;
+}
+
